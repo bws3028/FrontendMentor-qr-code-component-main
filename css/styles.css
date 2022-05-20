@@ -1,0 +1,54 @@
+html:root {
+  /* Colors */
+  --background-color: #d5e1ef;
+  --dark-blue: #202b49;
+  --light-gray: #9b9ba2;
+  --white: #ffffff;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: var(--background-color);
+}
+
+.card {
+  width: 300px;
+  height: 500px;
+  background-color: var(--white);
+  border-radius: 5%;
+}
+
+.card-img {
+  width: 100%;
+  border-radius: 5% 5% 0 0;
+}
+
+.card-header, .card-decription {
+  font-family: Montserrat;
+  text-align: center;
+  margin: 20px 10px;
+}
+
+.card-header {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: var(--dark-blue)
+}
+
+.card-decription {
+  font-weight: 400;
+  font-size: 15px;
+  color: var(--light-gray)
+
+}
+
+.line-break {
+  display: block;
+}
+
+.attribution {
+  align-self: flex-end;
+}
